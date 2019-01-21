@@ -14,6 +14,17 @@
 		0D54CAD221EA423300F230D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D54CAD021EA423300F230D0 /* LaunchScreen.storyboard */; };
 		0D54CADD21EA423400F230D0 /* stabcamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D54CADC21EA423400F230D0 /* stabcamTests.swift */; };
 		0D54CAE821EA423400F230D0 /* stabcamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D54CAE721EA423400F230D0 /* stabcamUITests.swift */; };
+		0D83528821F0520B00CCDD1F /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D83528721F0520B00CCDD1F /* CoreVideo.framework */; };
+		0D83528C21F0530A00CCDD1F /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D83528B21F0530A00CCDD1F /* AssetsLibrary.framework */; };
+		0D83528E21F0531400CCDD1F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D83528D21F0531400CCDD1F /* CoreGraphics.framework */; };
+		0D83529021F0531D00CCDD1F /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D83528F21F0531D00CCDD1F /* CoreMedia.framework */; };
+		0D83529221F0532700CCDD1F /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D83529121F0532700CCDD1F /* CoreFoundation.framework */; };
+		0D83529421F0533000CCDD1F /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D83529321F0532F00CCDD1F /* Accelerate.framework */; };
+		0D83529821F0540D00CCDD1F /* OpenCVWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0D83529721F0540D00CCDD1F /* OpenCVWrapper.mm */; };
+		0D83529A21F0554D00CCDD1F /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D83529921F0554D00CCDD1F /* opencv2.framework */; };
+		669D9D44FCF77A4F2C2C30D3 /* Pods_stabcam.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C41F13A97A7F91E027EE60CF /* Pods_stabcam.framework */; };
+		6EA1A9D8D49AC88B5237ABA4 /* Pods_stabcamTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCEC7F65F1AD2AC7057284AB /* Pods_stabcamTests.framework */; };
+		CA06794D00E1794BE7272ED4 /* Pods_stabcamUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B980965FF8CA14F9DA1395C /* Pods_stabcamUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D03589F21F56913005475B7 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		0D54CAC421EA423300F230D0 /* stabcam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stabcam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D54CAC721EA423300F230D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0D54CAC921EA423300F230D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +59,25 @@
 		0D54CAE321EA423400F230D0 /* stabcamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = stabcamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D54CAE721EA423400F230D0 /* stabcamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stabcamUITests.swift; sourceTree = "<group>"; };
 		0D54CAE921EA423400F230D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D83528721F0520B00CCDD1F /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		0D83528B21F0530A00CCDD1F /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		0D83528D21F0531400CCDD1F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0D83528F21F0531D00CCDD1F /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		0D83529121F0532700CCDD1F /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		0D83529321F0532F00CCDD1F /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		0D83529521F0540C00CCDD1F /* stabcam-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "stabcam-Bridging-Header.h"; sourceTree = "<group>"; };
+		0D83529621F0540D00CCDD1F /* OpenCVWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenCVWrapper.h; sourceTree = "<group>"; };
+		0D83529721F0540D00CCDD1F /* OpenCVWrapper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenCVWrapper.mm; sourceTree = "<group>"; };
+		0D83529921F0554D00CCDD1F /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		155FC7EFCD45EE7314B36094 /* Pods-stabcam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stabcam.release.xcconfig"; path = "Pods/Target Support Files/Pods-stabcam/Pods-stabcam.release.xcconfig"; sourceTree = "<group>"; };
+		6FD2CC9AA3603A7EB65C9A01 /* Pods-stabcamUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stabcamUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-stabcamUITests/Pods-stabcamUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8B0DE8AC451AB18B6CF46AAA /* Pods-stabcamUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stabcamUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-stabcamUITests/Pods-stabcamUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8B980965FF8CA14F9DA1395C /* Pods_stabcamUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_stabcamUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E359F7434ADCF64D6C387F5 /* Pods-stabcam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stabcam.debug.xcconfig"; path = "Pods/Target Support Files/Pods-stabcam/Pods-stabcam.debug.xcconfig"; sourceTree = "<group>"; };
+		C41F13A97A7F91E027EE60CF /* Pods_stabcam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_stabcam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE794761DCE8F5C9B1F53B4A /* Pods-stabcamTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stabcamTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-stabcamTests/Pods-stabcamTests.release.xcconfig"; sourceTree = "<group>"; };
+		DCEC7F65F1AD2AC7057284AB /* Pods_stabcamTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_stabcamTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD14EA6C73CC07D9D734DE56 /* Pods-stabcamTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stabcamTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-stabcamTests/Pods-stabcamTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +85,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D83529421F0533000CCDD1F /* Accelerate.framework in Frameworks */,
+				0D83529221F0532700CCDD1F /* CoreFoundation.framework in Frameworks */,
+				0D83529A21F0554D00CCDD1F /* opencv2.framework in Frameworks */,
+				0D83529021F0531D00CCDD1F /* CoreMedia.framework in Frameworks */,
+				0D83528E21F0531400CCDD1F /* CoreGraphics.framework in Frameworks */,
+				0D83528C21F0530A00CCDD1F /* AssetsLibrary.framework in Frameworks */,
+				0D83528821F0520B00CCDD1F /* CoreVideo.framework in Frameworks */,
+				669D9D44FCF77A4F2C2C30D3 /* Pods_stabcam.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EA1A9D8D49AC88B5237ABA4 /* Pods_stabcamTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +108,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA06794D00E1794BE7272ED4 /* Pods_stabcamUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		098BC5C759AC2B102F926AF1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E359F7434ADCF64D6C387F5 /* Pods-stabcam.debug.xcconfig */,
+				155FC7EFCD45EE7314B36094 /* Pods-stabcam.release.xcconfig */,
+				FD14EA6C73CC07D9D734DE56 /* Pods-stabcamTests.debug.xcconfig */,
+				CE794761DCE8F5C9B1F53B4A /* Pods-stabcamTests.release.xcconfig */,
+				6FD2CC9AA3603A7EB65C9A01 /* Pods-stabcamUITests.debug.xcconfig */,
+				8B0DE8AC451AB18B6CF46AAA /* Pods-stabcamUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		0D54CABB21EA423300F230D0 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +135,8 @@
 				0D54CADB21EA423400F230D0 /* stabcamTests */,
 				0D54CAE621EA423400F230D0 /* stabcamUITests */,
 				0D54CAC521EA423300F230D0 /* Products */,
+				098BC5C759AC2B102F926AF1 /* Pods */,
+				1EC9C5E99A76988ADDA2DFDC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +159,10 @@
 				0D54CACE21EA423300F230D0 /* Assets.xcassets */,
 				0D54CAD021EA423300F230D0 /* LaunchScreen.storyboard */,
 				0D54CAD321EA423400F230D0 /* Info.plist */,
+				0D83529621F0540D00CCDD1F /* OpenCVWrapper.h */,
+				0D83529721F0540D00CCDD1F /* OpenCVWrapper.mm */,
+				0D83529521F0540C00CCDD1F /* stabcam-Bridging-Header.h */,
+				0D03589F21F56913005475B7 /* PrefixHeader.pch */,
 			);
 			path = stabcam;
 			sourceTree = "<group>";
@@ -125,6 +185,23 @@
 			path = stabcamUITests;
 			sourceTree = "<group>";
 		};
+		1EC9C5E99A76988ADDA2DFDC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D83529921F0554D00CCDD1F /* opencv2.framework */,
+				0D83529321F0532F00CCDD1F /* Accelerate.framework */,
+				0D83529121F0532700CCDD1F /* CoreFoundation.framework */,
+				0D83528F21F0531D00CCDD1F /* CoreMedia.framework */,
+				0D83528D21F0531400CCDD1F /* CoreGraphics.framework */,
+				0D83528B21F0530A00CCDD1F /* AssetsLibrary.framework */,
+				0D83528721F0520B00CCDD1F /* CoreVideo.framework */,
+				C41F13A97A7F91E027EE60CF /* Pods_stabcam.framework */,
+				DCEC7F65F1AD2AC7057284AB /* Pods_stabcamTests.framework */,
+				8B980965FF8CA14F9DA1395C /* Pods_stabcamUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,6 +209,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0D54CAEC21EA423400F230D0 /* Build configuration list for PBXNativeTarget "stabcam" */;
 			buildPhases = (
+				A247F1488AA2D35EE357B472 /* [CP] Check Pods Manifest.lock */,
 				0D54CAC021EA423300F230D0 /* Sources */,
 				0D54CAC121EA423300F230D0 /* Frameworks */,
 				0D54CAC221EA423300F230D0 /* Resources */,
@@ -149,6 +227,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0D54CAEF21EA423400F230D0 /* Build configuration list for PBXNativeTarget "stabcamTests" */;
 			buildPhases = (
+				6D2EA694E981D8CDAC72D072 /* [CP] Check Pods Manifest.lock */,
 				0D54CAD421EA423400F230D0 /* Sources */,
 				0D54CAD521EA423400F230D0 /* Frameworks */,
 				0D54CAD621EA423400F230D0 /* Resources */,
@@ -167,6 +246,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0D54CAF221EA423400F230D0 /* Build configuration list for PBXNativeTarget "stabcamUITests" */;
 			buildPhases = (
+				F28F1315D99B54DEC8711B0D /* [CP] Check Pods Manifest.lock */,
 				0D54CADF21EA423400F230D0 /* Sources */,
 				0D54CAE021EA423400F230D0 /* Frameworks */,
 				0D54CAE121EA423400F230D0 /* Resources */,
@@ -193,6 +273,7 @@
 				TargetAttributes = {
 					0D54CAC321EA423300F230D0 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					0D54CAD721EA423400F230D0 = {
 						CreatedOnToolsVersion = 10.1;
@@ -251,11 +332,81 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6D2EA694E981D8CDAC72D072 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-stabcamTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A247F1488AA2D35EE357B472 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-stabcam-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F28F1315D99B54DEC8711B0D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-stabcamUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0D54CAC021EA423300F230D0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D83529821F0540D00CCDD1F /* OpenCVWrapper.mm in Sources */,
 				0D54CACA21EA423300F230D0 /* ViewController.swift in Sources */,
 				0D54CAC821EA423300F230D0 /* AppDelegate.swift in Sources */,
 			);
@@ -430,9 +581,17 @@
 		};
 		0D54CAED21EA423400F230D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E359F7434ADCF64D6C387F5 /* Pods-stabcam.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/stabcam/PrefixHeader.pch";
 				INFOPLIST_FILE = stabcam/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -440,6 +599,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.tandinhlee.stabcam;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "stabcam/stabcam-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -447,9 +608,17 @@
 		};
 		0D54CAEE21EA423400F230D0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 155FC7EFCD45EE7314B36094 /* Pods-stabcam.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/stabcam/PrefixHeader.pch";
 				INFOPLIST_FILE = stabcam/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -457,6 +626,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.tandinhlee.stabcam;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "stabcam/stabcam-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -464,6 +634,7 @@
 		};
 		0D54CAF021EA423400F230D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD14EA6C73CC07D9D734DE56 /* Pods-stabcamTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +655,7 @@
 		};
 		0D54CAF121EA423400F230D0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE794761DCE8F5C9B1F53B4A /* Pods-stabcamTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +676,7 @@
 		};
 		0D54CAF321EA423400F230D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FD2CC9AA3603A7EB65C9A01 /* Pods-stabcamUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +696,7 @@
 		};
 		0D54CAF421EA423400F230D0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B0DE8AC451AB18B6CF46AAA /* Pods-stabcamUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

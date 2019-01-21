@@ -1,0 +1,786 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		198B94BF10EDD832CB5AA1B3606CF535 /* Pods-stabcamUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 333C9EA9A4AAD7CA53E474FE2FA73970 /* Pods-stabcamUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2820F8FEEF36C2D1941D99A99212A5D1 /* Pods-stabcamTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F15CD5AF979EC44DF95D00FE9BF0E726 /* Pods-stabcamTests-dummy.m */; };
+		7973126FED7D7C5B9F7E2B3C284DB311 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		797E91AE11EDC84E4DC1C2C449EABFEF /* Pods-stabcamTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA166A7453A20BC4111BACFC4364A206 /* Pods-stabcamTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		999D69D30E293865AF4C6F0EAE5871F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		BC4222116B844B875FDC820A3D2EB71D /* Pods-stabcam-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C301BD1AE3BC0EA547D1774A1FB074F /* Pods-stabcam-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDE6ED8595011B55736DAE06C6B7FF8E /* Pods-stabcamUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 61690A9B68FCE0CC51FD196125AA1D2E /* Pods-stabcamUITests-dummy.m */; };
+		D0EA5320FFBF828B312CE688BDD88511 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		EE2FB840AF87C6B176EEE73575037F9D /* Pods-stabcam-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 862736A10AA1E9450CC21A04EE773BD2 /* Pods-stabcam-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		31D1393B87C4FFCEB651B02E8A101F8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D05504CCBE99984ACB72648A0B8B5974;
+			remoteInfo = "Pods-stabcam";
+		};
+		81BDF791214DCFA1A0AB677BC07D2EBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D05504CCBE99984ACB72648A0B8B5974;
+			remoteInfo = "Pods-stabcam";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C2B2A4719D7E6A996004A97F5DC3816 /* Pods-stabcamUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-stabcamUITests.modulemap"; sourceTree = "<group>"; };
+		333C9EA9A4AAD7CA53E474FE2FA73970 /* Pods-stabcamUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-stabcamUITests-umbrella.h"; sourceTree = "<group>"; };
+		37457DE0B1764627F1CF700C90CCDB35 /* Pods-stabcamUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-stabcamUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3C301BD1AE3BC0EA547D1774A1FB074F /* Pods-stabcam-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-stabcam-umbrella.h"; sourceTree = "<group>"; };
+		45F384FFEFBCA9D95D22EBE75BD12AE8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		466F9C5EA5D1ECC0D4B771692BD70AFE /* Pods-stabcamUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-stabcamUITests.release.xcconfig"; sourceTree = "<group>"; };
+		47D09787A6349161430E7500342B5618 /* Pods_stabcamUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_stabcamUITests.framework; path = "Pods-stabcamUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BB40EDD0770D7A1E889FA198E91EC30 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CA83DBD6F416BAE6302B6A8D2621CCB /* Pods-stabcamUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-stabcamUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		61690A9B68FCE0CC51FD196125AA1D2E /* Pods-stabcamUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-stabcamUITests-dummy.m"; sourceTree = "<group>"; };
+		6216D822F1AC6F0002EF54CEE12EE964 /* Pods_stabcamTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_stabcamTests.framework; path = "Pods-stabcamTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66133738E994467BBA1CECDEA1DECDD9 /* Pods-stabcam-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-stabcam-acknowledgements.plist"; sourceTree = "<group>"; };
+		68286AF4F298CB195421D5D95991182C /* Pods-stabcamTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-stabcamTests.release.xcconfig"; sourceTree = "<group>"; };
+		7248EDF91A87BA4405CE86D1D093A2E3 /* Pods_stabcam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_stabcam.framework; path = "Pods-stabcam.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		862736A10AA1E9450CC21A04EE773BD2 /* Pods-stabcam-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-stabcam-dummy.m"; sourceTree = "<group>"; };
+		87E2BF06E8D8F010C6DC36FFCD682731 /* Pods-stabcam-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-stabcam-resources.sh"; sourceTree = "<group>"; };
+		8A3AE3CF7A4730BF97F0F2B6C0C56F59 /* Pods-stabcam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-stabcam.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94D5541B1F22CAF6C6C356D4B56EEBD1 /* Pods-stabcam-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-stabcam-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9684C60F488CC73A69AC8042640E9611 /* Pods-stabcam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-stabcam.release.xcconfig"; sourceTree = "<group>"; };
+		A04DE7ED194528EDDCE0D2C4480F9FA5 /* Pods-stabcamUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-stabcamUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AA166A7453A20BC4111BACFC4364A206 /* Pods-stabcamTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-stabcamTests-umbrella.h"; sourceTree = "<group>"; };
+		AB8D4191387290402742D72C8C1E0EC8 /* Pods-stabcam-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-stabcam-frameworks.sh"; sourceTree = "<group>"; };
+		B0FC2F7A2FC0851DDDBFCDC0354AE9C7 /* Pods-stabcamTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-stabcamTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B623E2C537945C3603F253AEF4165E48 /* Pods-stabcamTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-stabcamTests-resources.sh"; sourceTree = "<group>"; };
+		B6BB25EDBAF89DE30F65FBAA1D852728 /* Pods-stabcam.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-stabcam.modulemap"; sourceTree = "<group>"; };
+		BCD6933FF6387C4375D88E9C9CD17E21 /* Pods-stabcamTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-stabcamTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C293117E88F71E4D7636588890077530 /* Pods-stabcamUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-stabcamUITests-frameworks.sh"; sourceTree = "<group>"; };
+		C452E5B7209DFC63347CA5CFC6C1C7DB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5CB4583C46EF8E80F3B12DF84539B37 /* Pods-stabcamTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-stabcamTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F15CD5AF979EC44DF95D00FE9BF0E726 /* Pods-stabcamTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-stabcamTests-dummy.m"; sourceTree = "<group>"; };
+		F4CE6442E9EA883E58AA8C96E0C28402 /* Pods-stabcamTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-stabcamTests-frameworks.sh"; sourceTree = "<group>"; };
+		F72A6DF0A80ADF40E3DE10D573145658 /* Pods-stabcamTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-stabcamTests.modulemap"; sourceTree = "<group>"; };
+		FE191BBA885D84BE639C2044F8C99420 /* Pods-stabcamUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-stabcamUITests-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B0D7195DAC24F77F3D859F54C985636 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				999D69D30E293865AF4C6F0EAE5871F2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D06A523147BEAB263D8FD0F0F3C6F82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0EA5320FFBF828B312CE688BDD88511 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C31D5F24D731ABFEF86D3F9661683ABA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7973126FED7D7C5B9F7E2B3C284DB311 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C8EB16D05CDE6182D3E4ADC69AC0F75 /* Pods-stabcamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C452E5B7209DFC63347CA5CFC6C1C7DB /* Info.plist */,
+				0C2B2A4719D7E6A996004A97F5DC3816 /* Pods-stabcamUITests.modulemap */,
+				37457DE0B1764627F1CF700C90CCDB35 /* Pods-stabcamUITests-acknowledgements.markdown */,
+				A04DE7ED194528EDDCE0D2C4480F9FA5 /* Pods-stabcamUITests-acknowledgements.plist */,
+				61690A9B68FCE0CC51FD196125AA1D2E /* Pods-stabcamUITests-dummy.m */,
+				C293117E88F71E4D7636588890077530 /* Pods-stabcamUITests-frameworks.sh */,
+				FE191BBA885D84BE639C2044F8C99420 /* Pods-stabcamUITests-resources.sh */,
+				333C9EA9A4AAD7CA53E474FE2FA73970 /* Pods-stabcamUITests-umbrella.h */,
+				5CA83DBD6F416BAE6302B6A8D2621CCB /* Pods-stabcamUITests.debug.xcconfig */,
+				466F9C5EA5D1ECC0D4B771692BD70AFE /* Pods-stabcamUITests.release.xcconfig */,
+			);
+			name = "Pods-stabcamUITests";
+			path = "Target Support Files/Pods-stabcamUITests";
+			sourceTree = "<group>";
+		};
+		2C3B81F92B0BA672CF02CB9D70548790 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1D42063FFC29C3E6CBFE0A7952CC7D8 /* Pods-stabcam */,
+				8F7E73912A1441B9EDD955C16A1D98BF /* Pods-stabcamTests */,
+				0C8EB16D05CDE6182D3E4ADC69AC0F75 /* Pods-stabcamUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		44D5347904CF754D6785B84253F2574A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6398EB93856F1A32B82DF158FDF3485A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7248EDF91A87BA4405CE86D1D093A2E3 /* Pods_stabcam.framework */,
+				6216D822F1AC6F0002EF54CEE12EE964 /* Pods_stabcamTests.framework */,
+				47D09787A6349161430E7500342B5618 /* Pods_stabcamUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				6398EB93856F1A32B82DF158FDF3485A /* Products */,
+				2C3B81F92B0BA672CF02CB9D70548790 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8F7E73912A1441B9EDD955C16A1D98BF /* Pods-stabcamTests */ = {
+			isa = PBXGroup;
+			children = (
+				4BB40EDD0770D7A1E889FA198E91EC30 /* Info.plist */,
+				F72A6DF0A80ADF40E3DE10D573145658 /* Pods-stabcamTests.modulemap */,
+				D5CB4583C46EF8E80F3B12DF84539B37 /* Pods-stabcamTests-acknowledgements.markdown */,
+				B0FC2F7A2FC0851DDDBFCDC0354AE9C7 /* Pods-stabcamTests-acknowledgements.plist */,
+				F15CD5AF979EC44DF95D00FE9BF0E726 /* Pods-stabcamTests-dummy.m */,
+				F4CE6442E9EA883E58AA8C96E0C28402 /* Pods-stabcamTests-frameworks.sh */,
+				B623E2C537945C3603F253AEF4165E48 /* Pods-stabcamTests-resources.sh */,
+				AA166A7453A20BC4111BACFC4364A206 /* Pods-stabcamTests-umbrella.h */,
+				BCD6933FF6387C4375D88E9C9CD17E21 /* Pods-stabcamTests.debug.xcconfig */,
+				68286AF4F298CB195421D5D95991182C /* Pods-stabcamTests.release.xcconfig */,
+			);
+			name = "Pods-stabcamTests";
+			path = "Target Support Files/Pods-stabcamTests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44D5347904CF754D6785B84253F2574A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1D42063FFC29C3E6CBFE0A7952CC7D8 /* Pods-stabcam */ = {
+			isa = PBXGroup;
+			children = (
+				45F384FFEFBCA9D95D22EBE75BD12AE8 /* Info.plist */,
+				B6BB25EDBAF89DE30F65FBAA1D852728 /* Pods-stabcam.modulemap */,
+				94D5541B1F22CAF6C6C356D4B56EEBD1 /* Pods-stabcam-acknowledgements.markdown */,
+				66133738E994467BBA1CECDEA1DECDD9 /* Pods-stabcam-acknowledgements.plist */,
+				862736A10AA1E9450CC21A04EE773BD2 /* Pods-stabcam-dummy.m */,
+				AB8D4191387290402742D72C8C1E0EC8 /* Pods-stabcam-frameworks.sh */,
+				87E2BF06E8D8F010C6DC36FFCD682731 /* Pods-stabcam-resources.sh */,
+				3C301BD1AE3BC0EA547D1774A1FB074F /* Pods-stabcam-umbrella.h */,
+				8A3AE3CF7A4730BF97F0F2B6C0C56F59 /* Pods-stabcam.debug.xcconfig */,
+				9684C60F488CC73A69AC8042640E9611 /* Pods-stabcam.release.xcconfig */,
+			);
+			name = "Pods-stabcam";
+			path = "Target Support Files/Pods-stabcam";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2CC67FF7E436BF25DD825CDD924FB014 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				198B94BF10EDD832CB5AA1B3606CF535 /* Pods-stabcamUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1FF3F0DEB15BC0C13C8A0ACDC735153 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC4222116B844B875FDC820A3D2EB71D /* Pods-stabcam-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF518295C0CA7FAB7D79EB8F0A65F749 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				797E91AE11EDC84E4DC1C2C449EABFEF /* Pods-stabcamTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9A5D0D69F9876E1CF6B5A6CFC4A6D9B2 /* Pods-stabcamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20F3CAFE6A1156A931D9BAD8DA186583 /* Build configuration list for PBXNativeTarget "Pods-stabcamTests" */;
+			buildPhases = (
+				FF518295C0CA7FAB7D79EB8F0A65F749 /* Headers */,
+				4C06746C6D06B38CDFDE931829D4A0D6 /* Sources */,
+				C31D5F24D731ABFEF86D3F9661683ABA /* Frameworks */,
+				5B8ECFC781D1219EC9DEDA6F3D0E04C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B50C028D3A2E4E7D1CC2D3EB6ACC4BE8 /* PBXTargetDependency */,
+			);
+			name = "Pods-stabcamTests";
+			productName = "Pods-stabcamTests";
+			productReference = 6216D822F1AC6F0002EF54CEE12EE964 /* Pods_stabcamTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D05504CCBE99984ACB72648A0B8B5974 /* Pods-stabcam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 000E09FE35C4EDBFEA586A0E350D109F /* Build configuration list for PBXNativeTarget "Pods-stabcam" */;
+			buildPhases = (
+				E1FF3F0DEB15BC0C13C8A0ACDC735153 /* Headers */,
+				1A8FCD5B5695DF19C3DBE048A275F465 /* Sources */,
+				1B0D7195DAC24F77F3D859F54C985636 /* Frameworks */,
+				E1063B12952C541056835054890D4347 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-stabcam";
+			productName = "Pods-stabcam";
+			productReference = 7248EDF91A87BA4405CE86D1D093A2E3 /* Pods_stabcam.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DD01B6B8A4081B56752856359951A1AE /* Pods-stabcamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3276CADE9AD43693E3024882102A7391 /* Build configuration list for PBXNativeTarget "Pods-stabcamUITests" */;
+			buildPhases = (
+				2CC67FF7E436BF25DD825CDD924FB014 /* Headers */,
+				28FC3492A7AD5A385A3894E5390B319D /* Sources */,
+				1D06A523147BEAB263D8FD0F0F3C6F82 /* Frameworks */,
+				365DF324F33849EFECCAAB302A941E9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01343850AA794C3CD8C84D77EA6438E1 /* PBXTargetDependency */,
+			);
+			name = "Pods-stabcamUITests";
+			productName = "Pods-stabcamUITests";
+			productReference = 47D09787A6349161430E7500342B5618 /* Pods_stabcamUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 6398EB93856F1A32B82DF158FDF3485A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D05504CCBE99984ACB72648A0B8B5974 /* Pods-stabcam */,
+				9A5D0D69F9876E1CF6B5A6CFC4A6D9B2 /* Pods-stabcamTests */,
+				DD01B6B8A4081B56752856359951A1AE /* Pods-stabcamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		365DF324F33849EFECCAAB302A941E9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B8ECFC781D1219EC9DEDA6F3D0E04C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1063B12952C541056835054890D4347 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A8FCD5B5695DF19C3DBE048A275F465 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE2FB840AF87C6B176EEE73575037F9D /* Pods-stabcam-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28FC3492A7AD5A385A3894E5390B319D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE6ED8595011B55736DAE06C6B7FF8E /* Pods-stabcamUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C06746C6D06B38CDFDE931829D4A0D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2820F8FEEF36C2D1941D99A99212A5D1 /* Pods-stabcamTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01343850AA794C3CD8C84D77EA6438E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-stabcam";
+			target = D05504CCBE99984ACB72648A0B8B5974 /* Pods-stabcam */;
+			targetProxy = 31D1393B87C4FFCEB651B02E8A101F8B /* PBXContainerItemProxy */;
+		};
+		B50C028D3A2E4E7D1CC2D3EB6ACC4BE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-stabcam";
+			target = D05504CCBE99984ACB72648A0B8B5974 /* Pods-stabcam */;
+			targetProxy = 81BDF791214DCFA1A0AB677BC07D2EBE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0AA3B91655AF95B1F49159CD8085CD89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		18A7EEDDA4ECB58F0733C0E29416CCD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CA83DBD6F416BAE6302B6A8D2621CCB /* Pods-stabcamUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-stabcamUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-stabcamUITests/Pods-stabcamUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		472614874F860867B56D838020273F9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A3AE3CF7A4730BF97F0F2B6C0C56F59 /* Pods-stabcam.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-stabcam/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-stabcam/Pods-stabcam.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4D9F345B7F5A585D78C3A2FEEE0413DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 466F9C5EA5D1ECC0D4B771692BD70AFE /* Pods-stabcamUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-stabcamUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-stabcamUITests/Pods-stabcamUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4F3A82E4294620B646B251912C95DCA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9684C60F488CC73A69AC8042640E9611 /* Pods-stabcam.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-stabcam/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-stabcam/Pods-stabcam.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		53D3156D8A97E59A8CD49985247EF4E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCD6933FF6387C4375D88E9C9CD17E21 /* Pods-stabcamTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-stabcamTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-stabcamTests/Pods-stabcamTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6C0F270791E6C389FA425AD911DFB0D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68286AF4F298CB195421D5D95991182C /* Pods-stabcamTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-stabcamTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-stabcamTests/Pods-stabcamTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8000995DA02063BF3777393CD52061DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		000E09FE35C4EDBFEA586A0E350D109F /* Build configuration list for PBXNativeTarget "Pods-stabcam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				472614874F860867B56D838020273F9E /* Debug */,
+				4F3A82E4294620B646B251912C95DCA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20F3CAFE6A1156A931D9BAD8DA186583 /* Build configuration list for PBXNativeTarget "Pods-stabcamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53D3156D8A97E59A8CD49985247EF4E4 /* Debug */,
+				6C0F270791E6C389FA425AD911DFB0D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AA3B91655AF95B1F49159CD8085CD89 /* Debug */,
+				8000995DA02063BF3777393CD52061DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3276CADE9AD43693E3024882102A7391 /* Build configuration list for PBXNativeTarget "Pods-stabcamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A7EEDDA4ECB58F0733C0E29416CCD5 /* Debug */,
+				4D9F345B7F5A585D78C3A2FEEE0413DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

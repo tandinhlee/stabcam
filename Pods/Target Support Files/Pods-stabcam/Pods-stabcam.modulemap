@@ -1,0 +1,6 @@
+framework module Pods_stabcam {
+  umbrella header "Pods-stabcam-umbrella.h"
+
+  export *
+  module * { export * }
+}
