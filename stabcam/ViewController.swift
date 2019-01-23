@@ -10,14 +10,17 @@ import UIKit
 import Photos
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var videoView: UIImageView!
+    var opencvWrapper: OpenCVWrapper!
     override func viewDidLoad() {
         super.viewDidLoad()
+        opencvWrapper = OpenCVWrapper.init(withVideoParentView: videoView)
         // Do any additional setup after loading the view, typically from a nib.
     }
-
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        
+    @IBAction func startRecording(_ sender: Any) {
+        opencvWrapper.actionStart(self);
     }
     
+    
 }
-

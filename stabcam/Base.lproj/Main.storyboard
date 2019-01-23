@@ -17,10 +17,35 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oJi-Dk-HFc">
+                                <rect key="frame" x="170.5" y="617" width="34" height="30"/>
+                                <state key="normal" title="Start"/>
+                                <connections>
+                                    <action selector="startRecording:" destination="BYZ-38-t0r" eventType="touchUpInside" id="O63-kJ-ozY"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="aBD-3k-11H">
+                                <rect key="frame" x="16" y="36" width="343" height="565"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="oJi-Dk-HFc" firstAttribute="top" secondItem="aBD-3k-11H" secondAttribute="bottom" constant="16" id="Cbu-XY-FJl"/>
+                            <constraint firstItem="aBD-3k-11H" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="IIT-gk-LiR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aBD-3k-11H" secondAttribute="trailing" constant="16" id="Sym-yO-hIh"/>
+                            <constraint firstItem="oJi-Dk-HFc" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="U8k-hS-qzC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="oJi-Dk-HFc" secondAttribute="bottom" constant="20" id="gng-Dn-rcT"/>
+                            <constraint firstItem="aBD-3k-11H" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="j30-IJ-WT0"/>
+                            <constraint firstItem="oJi-Dk-HFc" firstAttribute="top" secondItem="aBD-3k-11H" secondAttribute="bottom" constant="16" id="jr4-xZ-pQW"/>
+                            <constraint firstItem="aBD-3k-11H" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="pBP-Ar-Iaq"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="lZr-Ne-4uM"/>
+                    <connections>
+                        <outlet property="videoView" destination="aBD-3k-11H" id="dJD-wa-ceq"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
