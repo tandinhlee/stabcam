@@ -26,15 +26,9 @@
         //layer.affineTransform = CGAffineTransformMakeRotation( DEGREES_RADIANS(rotation_angle) );
         
         // Get video feed's resolutions
-        NSArray* devices = [AVCaptureDevice devicesWithMediaType:AVMediaTypeVideo];
-        AVCaptureDevice* device = nil;
-        for (AVCaptureDevice *d in devices) {
-            // Get the default camera device - should be either front of back camera device
-            if ([d position] == self.defaultAVCaptureDevicePosition) {
-                device = d;
-            }
-        }
-        
+        //AVCaptureDevice.default(.builtInWideAngleCamera, for: AVMediaType.video, position: .front)
+        AVCaptureDevice* device = [AVCaptureDevice defaultDeviceWithDeviceType:AVCaptureDeviceTypeBuiltInWideAngleCamera mediaType:AVMediaTypeVideo position:AVCaptureDevicePositionFront];
+
         // Set the default device if not found
         if (!device) {
             device = [AVCaptureDevice defaultDeviceWithMediaType:AVMediaTypeVideo];
