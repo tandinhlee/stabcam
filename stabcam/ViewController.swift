@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var videoView: UIImageView!
     var opencvWrapper: OpenCVWrapper!
+    var isStart:Bool = false
     override func viewDidLoad() {
         super.viewDidLoad()
         opencvWrapper = OpenCVWrapper.init(withVideoParentView: videoView)

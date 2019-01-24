@@ -7,11 +7,13 @@
 //
 
 #import "OpenCVWrapper.h"
+#import "Stabilizer.hpp"
 #import <opencv2/opencv.hpp>
 #import <opencv2/videoio/cap_ios.h>
 using namespace cv;
 @interface OpenCVWrapper() <CvVideoCameraDelegate>
 @property (nonatomic, retain) CvVideoCamera* cvVideoCamera;
+@property (nonatomic) Stabilizer *stabilizer;
 @end
 @implementation OpenCVWrapper
 -(id) initWithWithVideoParentView:(UIView*) videoParentView{
@@ -24,24 +26,20 @@ using namespace cv;
         self.cvVideoCamera.defaultFPS = 30;
         self.cvVideoCamera.grayscaleMode = NO;
         self.cvVideoCamera.delegate = self;
+        self.stabilizer = new Stabilizer();
     }
     return self;
 }
 
 #pragma mark - Protocol CvVideoCameraDelegate
 #ifdef __cplusplus
-- (void) processImage:(Mat&)image
+- (void) processImage:(Mat&) image
 {
-    // Do some OpenCV stuff with the image
-    // Do some OpenCV stuff with the image
+//    Stabilizer *stabilizer = new Stabilizer();
     Mat image_copy;
-    cvtColor(image, image_copy, COLOR_BGR2GRAY);
-    // invert image
-    bitwise_not(image_copy, image_copy);
-    //Convert BGR to BGRA (three channel to four channel)
-    Mat bgr;
-    cvtColor(image_copy, bgr, COLOR_GRAY2BGR);
-    cvtColor(bgr, image, COLOR_BGR2BGRA);
+    image.copyTo(image_copy);
+    Mat result = self.stabilizer->stablelize(image_copy);
+    result.copyTo(image);
 }
 #endif
 #pragma mark - UI Actions
