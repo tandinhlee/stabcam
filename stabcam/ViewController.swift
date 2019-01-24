@@ -9,9 +9,10 @@
 import UIKit
 import Photos
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, OpenCVWrapperDelegate {
     
     @IBOutlet weak var videoView: UIImageView!
+    @IBOutlet weak var originalView: UIImageView!
     var opencvWrapper: OpenCVWrapper!
     var isStart:Bool = false
     override func viewDidLoad() {
@@ -21,7 +22,11 @@ class ViewController: UIViewController {
     }
     @IBAction func startRecording(_ sender: Any) {
         opencvWrapper.actionStart(self);
+        opencvWrapper.assign(self);
     }
-    
-    
+    func didReceiveOriginalImage(_ originalImage: UIImage, processedImage processImage: UIImage) {
+        DispatchQueue.main.async { () -> Void in
+            self.originalView.image = originalImage
+        }
+    }
 }

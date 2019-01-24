@@ -28,6 +28,7 @@
 		0DC14BE621F7C34E0009B37D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DC14BE521F7C34E0009B37D /* UIKit.framework */; };
 		0DC14BE821F7C35C0009B37D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DC14BE721F7C35C0009B37D /* Foundation.framework */; };
 		0DC14BEB21F8E1BD0009B37D /* Stabilizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0DC14BE921F8E1BD0009B37D /* Stabilizer.cpp */; };
+		0DC14BF621F996380009B37D /* FixCvVideoCamera.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0DC14BF521F996380009B37D /* FixCvVideoCamera.mm */; };
 		669D9D44FCF77A4F2C2C30D3 /* Pods_stabcam.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C41F13A97A7F91E027EE60CF /* Pods_stabcam.framework */; };
 		6EA1A9D8D49AC88B5237ABA4 /* Pods_stabcamTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCEC7F65F1AD2AC7057284AB /* Pods_stabcamTests.framework */; };
 		CA06794D00E1794BE7272ED4 /* Pods_stabcamUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B980965FF8CA14F9DA1395C /* Pods_stabcamUITests.framework */; };
@@ -82,6 +83,8 @@
 		0DC14BE721F7C35C0009B37D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0DC14BE921F8E1BD0009B37D /* Stabilizer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Stabilizer.cpp; sourceTree = "<group>"; };
 		0DC14BEA21F8E1BD0009B37D /* Stabilizer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Stabilizer.hpp; sourceTree = "<group>"; };
+		0DC14BF421F996380009B37D /* FixCvVideoCamera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FixCvVideoCamera.h; sourceTree = "<group>"; };
+		0DC14BF521F996380009B37D /* FixCvVideoCamera.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = FixCvVideoCamera.mm; sourceTree = "<group>"; };
 		155FC7EFCD45EE7314B36094 /* Pods-stabcam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stabcam.release.xcconfig"; path = "Pods/Target Support Files/Pods-stabcam/Pods-stabcam.release.xcconfig"; sourceTree = "<group>"; };
 		6FD2CC9AA3603A7EB65C9A01 /* Pods-stabcamUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stabcamUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-stabcamUITests/Pods-stabcamUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		8B0DE8AC451AB18B6CF46AAA /* Pods-stabcamUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stabcamUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-stabcamUITests/Pods-stabcamUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -183,6 +186,8 @@
 				0DC14BDB21F68A780009B37D /* stabcam-Bridging-Header.h */,
 				0DC14BE921F8E1BD0009B37D /* Stabilizer.cpp */,
 				0DC14BEA21F8E1BD0009B37D /* Stabilizer.hpp */,
+				0DC14BF421F996380009B37D /* FixCvVideoCamera.h */,
+				0DC14BF521F996380009B37D /* FixCvVideoCamera.mm */,
 			);
 			path = stabcam;
 			sourceTree = "<group>";
@@ -434,6 +439,7 @@
 				0DC14BEB21F8E1BD0009B37D /* Stabilizer.cpp in Sources */,
 				0D54CACA21EA423300F230D0 /* ViewController.swift in Sources */,
 				0D54CAC821EA423300F230D0 /* AppDelegate.swift in Sources */,
+				0DC14BF621F996380009B37D /* FixCvVideoCamera.mm in Sources */,
 				0DC14BDE21F68A780009B37D /* OpenCVWrapper.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

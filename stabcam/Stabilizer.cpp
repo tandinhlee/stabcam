@@ -7,8 +7,7 @@
 //
 
 #include "Stabilizer.hpp"
-const int HORIZONTAL_BORDER_CROP = 40; // In pixels. Crops the border to reduce the black borders from stabilisation being too noticeable.
-
+const int HORIZONTAL_BORDER_CROP = 20; // In pixels. Crops the border to reduce the black borders from stabilisation being too noticeable.
 using namespace std;
 Stabilizer::Stabilizer() {
     prev = Mat();
@@ -16,12 +15,18 @@ Stabilizer::Stabilizer() {
     R = Trajectory(cstd,cstd,cstd);// measurement noise covariance
     //T = Mat(2,3,CV_64F);
     X = Trajectory(0,0,0); //Initial estimate,  set 0
-    P =Trajectory(1,1,1); //set error variance,set 1
+    P = Trajectory(1,1,1); //set error variance,set 1
+    last_rigidtransform = Mat(2,3,CV_64F);
     
 }
 Mat Stabilizer::stablelize(Mat commingMat) {
     Mat cur, cur_grey;
     Mat prev_grey;
+    // vector from prev to cur
+    vector <Point2f> prev_corner, cur_corner;
+    vector <Point2f> prev_corner2, cur_corner2;
+    vector <uchar> status;
+    vector <float> err;
     commingMat.copyTo(cur);
     if (prev.data == NULL) {
         cur.copyTo(prev);
@@ -32,7 +37,14 @@ Mat Stabilizer::stablelize(Mat commingMat) {
     cvtColor(cur, cur_grey, COLOR_BGR2GRAY);
     goodFeaturesToTrack(prev_grey, prev_corner, 200, 0.01, 30);
     calcOpticalFlowPyrLK(prev_grey, cur_grey, prev_corner, cur_corner, status, err);
-    
+    /*
+     CV_EXPORTS_W void calcOpticalFlowPyrLK( InputArray prevImg, InputArray nextImg,
+     InputArray prevPts, InputOutputArray nextPts,
+     OutputArray status, OutputArray err,
+     Size winSize = Size(21,21), int maxLevel = 3,
+     TermCriteria criteria = TermCriteria(TermCriteria::COUNT+TermCriteria::EPS, 30, 0.01),
+     int flags = 0, double minEigThreshold = 1e-4 );
+     */
     // weed out bad matches
     for(size_t i=0; i < status.size(); i++) {
         if(status[i]) {
@@ -40,10 +52,12 @@ Mat Stabilizer::stablelize(Mat commingMat) {
             cur_corner2.push_back(cur_corner[i]);
         }
     }
-    
+    cout << "prev_corner2: " << prev_corner2.size() <<  endl;
+    cout << "cur_corner2: " << cur_corner2.size() <<  endl;
+    cout << "status: " << status.size() <<  endl;
     // translation + rotation only
 //    T = estimateRigidTransform(prev_corner2, cur_corner2, false); // false = rigid transform, no scaling/shearing
-    Mat rigidtrans=estimateRigidTransform(prev_corner,cur_corner,false); // false = rigid transform, no scaling/shearing
+    Mat rigidtrans = estimateAffinePartial2D(prev_corner,cur_corner); // false = rigid transform, no scaling/shearing
     
     // in rare cases no transform is found. We'll just use the last known good transform.
     if(rigidtrans.empty()) {

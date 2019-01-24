@@ -97,12 +97,6 @@ private:
     //cap.set(CV_CAP_PROP_POS_FRAMES, 0);
     int vert_border; // get the aspect ratio correct
     Mat last_rigidtransform;
-//    Mat last_T;
-    // vector from prev to cur
-    vector <Point2f> prev_corner, cur_corner;
-    vector <Point2f> prev_corner2, cur_corner2;
-    vector <uchar> status;
-    vector <float> err;
 public:
     Stabilizer();
     Mat stablelize(Mat commingMat);

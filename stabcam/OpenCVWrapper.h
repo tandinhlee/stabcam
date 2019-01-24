@@ -10,10 +10,15 @@
 #import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
-
+@protocol OpenCVWrapperDelegate <NSObject>
+@optional
+- (void) didReceiveOriginalImage:(UIImage *) originalImage processedImage:(UIImage *) processImage;
+@end
 @interface OpenCVWrapper : NSObject
--(id) initWithWithVideoParentView:(UIView*) videoParentView;
+@property (nonatomic, assign) id<OpenCVWrapperDelegate> wrapperDelegate;
+- (id) initWithWithVideoParentView:(UIView*) videoParentView;
 - (void)actionStart:(id)sender;
+- (void) assignWrapperDelegate:(id<OpenCVWrapperDelegate> _Nonnull)wrapperDelegate;
 @end
 
 NS_ASSUME_NONNULL_END
