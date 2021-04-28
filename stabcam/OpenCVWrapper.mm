@@ -42,6 +42,9 @@ using namespace cv;
 //    Stabilizer *stabilizer = new Stabilizer();
     Mat image_copy;
     image.copyTo(image_copy);
+    if (image_copy.empty()) {
+        return;
+    }
     Mat result = self.stabilizer->stablelize(image_copy);
     result.copyTo(image);
     if (self.wrapperDelegate && [self.wrapperDelegate respondsToSelector:@selector(didReceiveOriginalImage:processedImage:)]) {
